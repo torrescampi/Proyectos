@@ -35,27 +35,49 @@ Esta es una aplicación backend desarrollada en Spring Boot para la gestión de 
 ## Estructura del Proyecto
 
 src/main/java/com/fincajavier/stockventa/
+
 ├── config/
+
 │ └── CorsConfig.java
+
 ├── controller/
+
 │ ├── ProductoController.java
+
 │ └── VentaController.java
+
 ├── dto/
+
 │ ├── DetalleVentaDTO.java
+
 │ ├── VentaDTO.java
+
 │ ├── VentaRequest.java
+
 │ └── VentaResponse.java
+
 ├── model/
+
 │ ├── DetalleVenta.java
+
 │ ├── Producto.java
+
 │ └── Venta.java
+
 ├── repository/
+
 │ ├── ProductoRepository.java
+
 │ └── VentaRepository.java
+
 ├── service/
+
 │ ├── ProductoService.java
+
 │ └── VentaService.java
+
 └── StockventaApplication.java
+
 
 ## Modelo de Datos
 
