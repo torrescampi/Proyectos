@@ -45,6 +45,7 @@ finca-frontend/
 │ └── style.css # Estilos principales
 ├── js/
 │ └── app.js # Lógica de la aplicación
+└── 
 
 ## Configuración
 
