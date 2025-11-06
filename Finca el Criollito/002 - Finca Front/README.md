@@ -57,8 +57,9 @@ finca-frontend/
 ```javascript
 const API_URL = 'http://localhost:8080/api/productos';
 const API_VENTAS_URL = 'http://localhost:8080/api/ventas';
+```
 
-Ejecución
+### Ejecución
 Asegurar que el backend esté ejecutándose
 
 bash
