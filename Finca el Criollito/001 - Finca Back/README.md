@@ -1,4 +1,4 @@
-# Finca El Criollito - Sistema de Gestión Frontend
+# Finca El Criollito - Sistema de Gestión Backend
 
 ## Descripción
 
