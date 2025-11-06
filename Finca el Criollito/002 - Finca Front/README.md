@@ -78,16 +78,14 @@ bash
 # Opción 1: Servidor local (Python)
 python -m http.server 5500
 
-# Opción 2: Servidor local (Node.js)
-npx http-server -p 5500
-
-# Opción 3: Abrir directamente el archivo
+# Opción 2: Abrir directamente el archivo
 # Navegar a index.html en el navegador
 Acceder a la aplicación
 
 text
 http://localhost:5500
-Estructura de la Interfaz
+
+### Estructura de la Interfaz
 1. Header/Navbar
 Logo y nombre: "Finca El Criollito"
 
@@ -185,8 +183,7 @@ Cálculo automático de métricas y totales
 
 Agrupación de productos vendidos
 
-API Integration
-Endpoints Utilizados
+### Endpoints Utilizados
 javascript
 // Productos
 GET    /api/productos                 // Listar todos
@@ -213,6 +210,7 @@ Breakpoints
 < 576px: Móvil pequeño
 
 Adaptaciones Móviles
+
 Tablas convertidas a cards con datos apilados
 
 Formularios en columna única
@@ -257,7 +255,7 @@ Event delegation para elementos dinámicos
 
 Lazy loading de contenido
 
-Compatibilidad
+### Compatibilidad
 Navegadores Soportados
 ✅ Chrome 90+
 
@@ -274,7 +272,7 @@ Dispositivos
 
 ✅ Móvil (iOS, Android)
 
-Personalización
+### Personalización
 Modificación de Colores
 Editar variables CSS en :root:
 
@@ -284,7 +282,8 @@ css
     --secondary-color: #tu_color;
     /* ... más variables */
 }
-Configuración de API
+
+### Configuración de API
 Modificar constantes en app.js:
 
 javascript
@@ -305,7 +304,8 @@ javascript
 console.log('🔍 Debug:', variable);
 // Verificar conexión API
 fetch(API_URL).then(r => console.log('Status:', r.status));
-Próximas Mejoras
+
+### Próximas Mejoras
 Modo oscuro
 
 Sincronización offline
