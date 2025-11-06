@@ -41,11 +41,17 @@ Frontend web para el sistema de gestión de inventario y ventas de Finca El Crio
 
 finca-frontend/
 ├── index.html # Página principal
+
 ├── css/
+
 │ └── style.css # Estilos principales
+
 ├── js/
+
 │ └── app.js # Lógica de la aplicación
+
 └── 
+
 
 ## Configuración
 
