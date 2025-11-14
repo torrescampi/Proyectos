@@ -137,9 +137,9 @@ src/main/java/com/fincajavier/stockventa/
 Configurar las siguientes variables de entorno:
 
 # Configuración de Base de Datos
-DB_URL=mysql://localhost:3306
-DB_USER=tu_usuario
-DB_PASS=tu_contraseña
+- DB_URL=mysql://localhost:3306
+- DB_USER=tu_usuario
+- DB_PASS=tu_contraseña
 
 ### Ejecución
 
